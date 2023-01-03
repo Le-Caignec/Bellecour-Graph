@@ -7,6 +7,7 @@ dataSources:
     network: bellecour
     source:
       abi: IERC721
+      startBlock: 19464211
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
@@ -15,7 +16,7 @@ dataSources:
         - ERC721Contract
       abis:
         - name: IERC721
-          file: ./node_modules/@openzeppelin/contracts/build/contracts/IERC721Metadata.json
+          file: /node_modules/@openzeppelin/contracts/build/contracts/IERC721Metadata.json
       eventHandlers:
         - event: Approval(indexed address,indexed address,indexed uint256)
           handler: handleApproval
@@ -23,4 +24,4 @@ dataSources:
           handler: handleApprovalForAll
         - event: Transfer(indexed address,indexed address,indexed uint256)
           handler: handleTransfer
-      file: ./node_modules/@openzeppelin/subgraphs/src/datasources/erc721.ts
+      file: node_modules/@openzeppelin/subgraphs/src/datasources/erc721.ts
