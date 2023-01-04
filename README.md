@@ -8,9 +8,15 @@ This subgraph is used to index all the ERC721 smart-contract data of the Belleco
 npm install
 ```
 
+## Generate the Schema & Subgraph
+
+```bash
+npm run build -- --config erc721.json
+```
+
 ## Deploy the subgraph
 
-#### Deploy to thegraph on a local node
+#### Deploy to the graph on a local node
 
 ```bash
 npm run create-local

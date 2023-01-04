@@ -1,0 +1,9 @@
+{
+  "output": "generated/erc20/",
+  "chain": "bellecour",
+  "datasources": [
+    {
+      "module": "erc721"
+    }
+  ]
+}
