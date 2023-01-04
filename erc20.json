@@ -3,7 +3,7 @@
   "chain": "bellecour",
   "datasources": [
     {
-      "module": "erc721"
+      "module": "erc20"
     }
   ]
 }
